@@ -6,7 +6,7 @@ function Table({ filteredData }) {
     filteredData.map((user) => createData(user))
   );
   const columns = [
-    { id: "id", label: "ID", minWidth: 170 },
+    { id: "id", label: "ID", minWidth: 30 },
     { id: "name", label: "Name", minWidth: 100 },
     { id: "userName", label: "UserName", minWidth: 100 },
     { id: "email", label: "Email", minWidth: 100 },
